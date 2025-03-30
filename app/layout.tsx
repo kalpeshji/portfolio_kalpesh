@@ -3,7 +3,6 @@ import "@/styles/globals.css";
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import { ThemeProvider } from "@/components/theme-provider";
-import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
+        <AnalyticsWrapper /> {/* Now client-only */}
         <CustomCursor />
         <ThemeProvider
           attribute="class"
@@ -43,4 +43,5 @@ export default function RootLayout({
 
 import "./globals.css";
 import CustomCursor from "@/components/CustomCursor";
-import { useEffect } from "react";
+import { useEffect } from "react";import AnalyticsWrapper from "@/components/AnalyticsWrapper";
+

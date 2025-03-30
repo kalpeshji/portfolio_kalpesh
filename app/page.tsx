@@ -184,7 +184,7 @@ export default function LandingPage() {
           <div className="container flex h-16 items-center justify-between">
             <a href="/#">
               <div className="flex items-center gap-2 font-bold">
-                <div className="size-8 rounded-lg bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center text-primary-foreground">
+                <div className="size-8 rounded-sm bg-gradient-to-br dark:bg-white bg-black flex items-center justify-center text-primary-foreground">
                   K
                 </div>
                 <span>Kalpesh</span>

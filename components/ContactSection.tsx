@@ -96,12 +96,12 @@ export default function ContactSection() {
           className="flex flex-col items-center justify-center space-y-4 text-center mb-16"
         >
           <Badge
-            className="rounded-full px-4 py-1.5 text-sm font-medium bg-primary/10 text-primary"
+            className="rounded-full px-4 py-1.5 text-sm font-medium"
             variant="secondary"
           >
             Get In Touch
           </Badge>
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/70">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
             Let's Connect
           </h2>
           <p className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto">
@@ -183,7 +183,7 @@ export default function ContactSection() {
                 </div>
                 <Button
                   type="submit"
-                  className="w-full rounded-full bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary py-6 transition-all duration-300"
+                  className="w-full rounded-full bg-black hover:bg-black/90  dark:bg-white dark:hover:bg-white/90  py-6 transition-all duration-300"
                   size="lg"
                   disabled={isSubmitting}
                 >
@@ -236,8 +236,8 @@ export default function ContactSection() {
 
               <div className="space-y-8">
                 <div className="flex items-start gap-4">
-                  <div className="bg-primary/10 p-3 rounded-full">
-                    <Mail size={20} className="text-primary" />
+                  <div className="bg-card hover:bg-muted p-3 rounded-full border transition-colors">
+                    <Mail size={20} className="" />
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-muted-foreground">
@@ -245,7 +245,7 @@ export default function ContactSection() {
                     </h4>
                     <a
                       href="mailto:guptakalpeshji@gmail.com"
-                      className="text-base hover:text-primary transition-colors"
+                      className="text-base transition-colors"
                     >
                       guptakalpeshji@gmail.com
                     </a>
@@ -253,8 +253,8 @@ export default function ContactSection() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="bg-primary/10 p-3 rounded-full">
-                    <Phone size={20} className="text-primary" />
+                  <div className="bg-card hover:bg-muted p-3 rounded-full border transition-colors">
+                    <Phone size={20} className="" />
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-muted-foreground">
@@ -262,7 +262,7 @@ export default function ContactSection() {
                     </h4>
                     <a
                       href="tel:+918849269211"
-                      className="text-base hover:text-primary transition-colors"
+                      className="text-base transition-colors"
                     >
                       +91 8849269211
                     </a>
@@ -270,8 +270,8 @@ export default function ContactSection() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="bg-primary/10 p-3 rounded-full">
-                    <MapPin size={20} className="text-primary" />
+                  <div className="bg-card hover:bg-muted p-3 rounded-full border transition-colors">
+                    <MapPin size={20} className="" />
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-muted-foreground">
