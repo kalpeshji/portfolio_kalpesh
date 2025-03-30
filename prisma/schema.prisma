@@ -9,10 +9,10 @@ datasource db {
 
 model ContactMessage {
   id        String   @id @default(auto()) @map("_id") @db.ObjectId
-  name      String
+  createdAt DateTime @db.Date
   email     String
-  subject   String
+  isRead    Boolean
   message   String
-  createdAt DateTime @default(now())
-  isRead    Boolean  @default(false)
+  name      String
+  subject   String
 }
