@@ -46,10 +46,10 @@ export default function AboutSection() {
           {/* Left column - Fixed Photo */}
           <div
             ref={imageRef}
-            className="md:w-2/5 mb-8 md:mb-0 sticky top-24 h-fit"
+            className="md:w-2/5 mb-8 md:mb-0 md:sticky top-24 h-fit"
           >
             <div className="relative w-full aspect-square max-w-md mx-auto overflow-hidden rounded-2xl border-2 border-neutral-200 dark:border-neutral-800 bg-neutral-100 dark:bg-neutral-800">
-              <div className="absolute inset-0 flex items-center justify-center">
+              <div className="md:absolute inset-0 flex items-center justify-center">
                 <img src="/me.jpg" alt="" />
               </div>
             </div>
