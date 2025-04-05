@@ -47,7 +47,7 @@ interface GridItemProps {
 const GridItem = ({ area, icon, title, description }: GridItemProps) => {
   return (
     <li className={`min-h-[8rem] list-none ${area}`}>
-      <div className="relative h-full rounded-2.5xl border  p-2  md:rounded-3xl md:p-3">
+      <div className="relative h-full rounded-2.5xl border p-2  md:rounded-3xl md:p-3">
         <GlowingEffect
           spread={40}
           glow={true}
@@ -55,7 +55,7 @@ const GridItem = ({ area, icon, title, description }: GridItemProps) => {
           proximity={64}
           inactiveZone={0.01}
         />
-        <div className="relative flex h-full flex-col justify-between gap-6 overflow-hidden rounded-xl border-0.75 p-6  dark:shadow-[0px_0px_27px_0px_#2D2D2D] md:p-6">
+        <div className="relative flex h-full flex-col justify-between gap-6 overflow-hidden rounded-xl border-0.75 p-6 shadow-[0px_0px_27px_0px_#f0f0f0]  dark:shadow-[0px_0px_27px_0px_#2D2D2D] md:p-6">
           <div className="relative">
             <div className="w-fit rounded-lg border border-gray-600 p-2 ">
               {icon}
