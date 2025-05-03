@@ -76,17 +76,6 @@ export default function AboutSection() {
                   Hello! I'm <span className="font-semibold">Kalpesh</span>, a
                   passionate web developer with over 1 years of experience
                   creating modern, responsive websites and applications. <br />
-                  <br />
-                  I am currently pursuing a Bachelor of Computer Application
-                  (BCA) degree from Bhagwan Mahavir University. In addition to
-                  my academic studies, I have completed a comprehensive Full
-                  Stack Web Development course at the Red and White Multimedia
-                  Institute, where I gained both theoretical knowledge and
-                  practical skills in web development. My education and training
-                  have equipped me with a solid foundation in computer science
-                  and programming, allowing me to work confidently in various
-                  development environments.
-                  <br />
                   <br /> My technical expertise includes a diverse range of
                   languages and frameworks, such as HTML, CSS, jQuery, and
                   Bootstrap for front-end development, and C, C++, JavaScript,
@@ -189,7 +178,7 @@ export default function AboutSection() {
                       </span>
                     </div>
                     <p className="text-neutral-600 dark:text-neutral-400">
-                      Gurukrupa School
+                      Gaurav School
                     </p>
                   </div>
                 </div>
